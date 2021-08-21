@@ -1,24 +1,9 @@
-# README
+# ミニトークアプリについての学び
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+１、Action Cableは、Rails5から標準装備された即時更新機能である
 
-Things you may want to cover:
+２、stream_fromメソッドを用いることで、サーバーとクライアントが関連付けられること
 
-* Ruby version
+３、broadcastを介して、クライアントにデータが送信されること
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+４、送信されたデータは、message_channel.jsのreceivedで受け取ること
